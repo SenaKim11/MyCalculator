@@ -2,9 +2,67 @@
   text-align: center;
 }
 
+.CalcContainer {
+  width: 500px;
+  margin: 7% 33%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px #ccc;
+  background-image: linear-gradient(gray,rgb(255, 57, 90),pink,gray);
+}
+
 .CalcDisplay {
-  height: 40px;
-  font-size: 2em;
-  color: white;
-  background-image: linear-gradient(rgb(5, 5, 5),rgb(238, 17, 54));
+  height: 50px;
+  background-color: #030303;
+  text-align: center;
+  padding: 10px;
+  font-size: 40px;
+  color:white;
+}
+
+.CalcButton:hover {
+  background-color: #e7cca9;
+}
+
+.ButtonContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 2px;
+  justify-content: center;
+}
+
+.CalcButton {
+  width: 95px;
+  height: 75px;
+  margin: 5px;
+  margin-left: 10%;
+  padding: 1px;
+  background-color: #eee;
+  cursor: pointer;
+  font-size: 40px;
+  font-family: sans-serif;
+}
+
+.Name {
+  width: 250px;
+  height: 50px;
+  margin: 5px;
+  margin-left: 25%;
+  padding: 1px;
+  background-color: #eee;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.Name:hover {
+  background-color: #e7cca9;
+}
+
+.forName{
+  text-align: center;
+  font-size: 25px;
+  font-family: sans-serif;
+  display: grid;
 }
