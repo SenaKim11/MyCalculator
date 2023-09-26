@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+}
+
+.CalcDisplay {
+  height: 40px;
+  font-size: 2em;
+  color: white;
+  background-image: linear-gradient(rgb(5, 5, 5),rgb(238, 17, 54));
+}
